@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24D30801783EBB600A0F50C /* Calculator-icon1.png in Resources */ = {isa = PBXBuildFile; fileRef = B24D307F1783EBB600A0F50C /* Calculator-icon1.png */; };
+		B24D30821783EBFE00A0F50C /* Calculator-icon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = B24D30811783EBFE00A0F50C /* Calculator-icon copy.png */; };
 		B2643AF51783786C00E26397 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2643AF41783786C00E26397 /* UIKit.framework */; };
 		B2643AF71783786C00E26397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2643AF61783786C00E26397 /* Foundation.framework */; };
 		B2643AF91783786C00E26397 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2643AF81783786C00E26397 /* CoreGraphics.framework */; };
@@ -24,6 +26,9 @@
 		B2643B1E1783786C00E26397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2643AF61783786C00E26397 /* Foundation.framework */; };
 		B2643B261783786C00E26397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2643B241783786C00E26397 /* InfoPlist.strings */; };
 		B2643B291783786C00E26397 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2643B281783786C00E26397 /* CalculatorTests.m */; };
+		B2643B3417837C3400E26397 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B2643B3317837C3400E26397 /* CalculatorBrain.m */; };
+		B2643B3A1783B14100E26397 /* Calculator Background2.png in Resources */ = {isa = PBXBuildFile; fileRef = B2643B391783B14100E26397 /* Calculator Background2.png */; };
+		B2643B3C1783B18900E26397 /* Calculator Backgroundomg.png in Resources */ = {isa = PBXBuildFile; fileRef = B2643B3B1783B18900E26397 /* Calculator Backgroundomg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B24D307F1783EBB600A0F50C /* Calculator-icon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-icon1.png"; sourceTree = "<group>"; };
+		B24D30811783EBFE00A0F50C /* Calculator-icon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator-icon copy.png"; sourceTree = "<group>"; };
 		B2643AF11783786C00E26397 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2643AF41783786C00E26397 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B2643AF61783786C00E26397 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +67,10 @@
 		B2643B251783786C00E26397 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2643B271783786C00E26397 /* CalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorTests.h; sourceTree = "<group>"; };
 		B2643B281783786C00E26397 /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		B2643B3217837C3400E26397 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		B2643B3317837C3400E26397 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		B2643B391783B14100E26397 /* Calculator Background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator Background2.png"; sourceTree = "<group>"; };
+		B2643B3B1783B18900E26397 /* Calculator Backgroundomg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calculator Backgroundomg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +100,10 @@
 		B2643AE81783786C00E26397 = {
 			isa = PBXGroup;
 			children = (
+				B24D30811783EBFE00A0F50C /* Calculator-icon copy.png */,
+				B24D307F1783EBB600A0F50C /* Calculator-icon1.png */,
+				B2643B3B1783B18900E26397 /* Calculator Backgroundomg.png */,
+				B2643B391783B14100E26397 /* Calculator Background2.png */,
 				B2643AFA1783786C00E26397 /* Calculator */,
 				B2643B211783786C00E26397 /* CalculatorTests */,
 				B2643AF31783786C00E26397 /* Frameworks */,
@@ -123,6 +138,8 @@
 				B2643B041783786C00E26397 /* AppDelegate.m */,
 				B2643B0C1783786C00E26397 /* ViewController.h */,
 				B2643B0D1783786C00E26397 /* ViewController.m */,
+				B2643B3217837C3400E26397 /* CalculatorBrain.h */,
+				B2643B3317837C3400E26397 /* CalculatorBrain.m */,
 				B2643B0F1783786C00E26397 /* ViewController_iPhone.xib */,
 				B2643B121783786C00E26397 /* ViewController_iPad.xib */,
 				B2643AFB1783786C00E26397 /* Supporting Files */,
@@ -240,6 +257,10 @@
 				B2643B0B1783786C00E26397 /* Default-568h@2x.png in Resources */,
 				B2643B111783786C00E26397 /* ViewController_iPhone.xib in Resources */,
 				B2643B141783786C00E26397 /* ViewController_iPad.xib in Resources */,
+				B2643B3A1783B14100E26397 /* Calculator Background2.png in Resources */,
+				B2643B3C1783B18900E26397 /* Calculator Backgroundomg.png in Resources */,
+				B24D30801783EBB600A0F50C /* Calculator-icon1.png in Resources */,
+				B24D30821783EBFE00A0F50C /* Calculator-icon copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +298,7 @@
 				B2643B011783786C00E26397 /* main.m in Sources */,
 				B2643B051783786C00E26397 /* AppDelegate.m in Sources */,
 				B2643B0E1783786C00E26397 /* ViewController.m in Sources */,
+				B2643B3417837C3400E26397 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +489,7 @@
 				B2643B2E1783786C00E26397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2643B2F1783786C00E26397 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +498,7 @@
 				B2643B311783786C00E26397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
